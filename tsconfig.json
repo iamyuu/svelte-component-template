@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "types": ["svelte", "jest"]
+  },
+  "include": ["src/**/*", "./jest-setup.ts"],
+  "exclude": ["node_modules/*"]
+}
