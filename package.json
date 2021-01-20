@@ -13,7 +13,7 @@
     "type-check": "svelte-check",
     "storybook": "start-storybook -p 6006",
     "build": "rollup -c",
-    "build:storybook": "build:storybook -c .storybook -o docs",
+    "build:storybook": "build-storybook -c .storybook -o docs",
     "prebuild": "rimraf dist",
     "prebuild:storybook": "rimraf docs",
     "prepublishOnly": "npm run build"
